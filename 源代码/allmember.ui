@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Allmember</class>
+ <widget class="QDialog" name="Allmember">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>995</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>所有家庭成员</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <row>
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>出生日期</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>性别</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>年龄</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>身高/cm</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>体重/kg</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>家庭成员</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>家庭成员</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>家庭成员</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>家庭成员</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>家庭成员</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>家庭成员</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>家庭成员</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
